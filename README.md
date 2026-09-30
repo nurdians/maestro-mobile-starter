@@ -64,6 +64,16 @@ Report: `reports/report.xml` (JUnit), log/screenshot: `reports/debug/`.
 3. Di Copilot Chat pilih agent **maestro-automation**.
 4. Beri tugas, contoh: "Buat flow login untuk Android pakai emulator Pixel_7", atau jalankan prompt `/create-flow`.
 
+Contoh penggunaan `/create-flow`:
+
+```text
+/create-flow
+login menggunakan valid credential kemudian tambah product baru berikut:
+- nama product: headset sony
+- harga: 300000
+- stok: 10
+```
+
 Agent akan: memilih device, inspect UI, menjalankan langkah lewat MCP, menulis flow di `flows/<platform>/`, lalu menjalankannya sampai lolos. Jika skenario dibutuhkan di dua platform, agent mengulang prosesnya di device platform lainnya.
 
 ### Troubleshooting MCP
