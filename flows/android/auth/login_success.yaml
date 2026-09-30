@@ -1,0 +1,10 @@
+appId: com.example.flutter_starter   # TODO: replace with your android app id
+name: Auth - Login success
+tags:
+  - smoke
+  - auth
+---
+- launchApp:
+    clearState: true
+- runFlow: ../../../subflows/android/login.yaml
+- assertVisible: "PRODUCT CATALOG"

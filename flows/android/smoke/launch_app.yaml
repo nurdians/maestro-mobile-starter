@@ -1,0 +1,8 @@
+appId: com.example.flutter_starter   # TODO: replace with your android app id
+name: Smoke - Launch app
+tags:
+  - smoke
+---
+- launchApp:
+    clearState: true
+- assertVisible: "Login"

@@ -1,0 +1,5 @@
+# Maestro workspace config for ios: run all flows recursively under flows/ios/
+flows:
+  - "**"
+excludeTags:
+  - wip

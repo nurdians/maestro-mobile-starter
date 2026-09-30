@@ -1,0 +1,11 @@
+appId: com.example.flutter_starter   # TODO: replace with your android app id
+---
+- tapOn:
+    id: "login_email"
+- inputText: ${APP_USER}
+- tapOn:
+    id: "login_password"
+- inputText: ${APP_PASSWORD}
+# - hideKeyboard
+- tapOn:
+    id: "login_submit"

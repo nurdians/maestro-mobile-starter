@@ -1,0 +1,5 @@
+# Maestro workspace config for android: run all flows recursively under flows/android/
+flows:
+  - "**"
+excludeTags:
+  - wip

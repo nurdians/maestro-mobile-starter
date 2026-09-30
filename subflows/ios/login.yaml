@@ -1,0 +1,11 @@
+appId: com.example.flutter_starter   # TODO: replace with your ios app id
+---
+- tapOn:
+    id: "username_input"
+- inputText: ${APP_USER}
+- tapOn:
+    id: "password_input"
+- inputText: ${APP_PASSWORD}
+- hideKeyboard
+- tapOn:
+    id: "login_button"
